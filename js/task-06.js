@@ -1,5 +1,4 @@
 const textInput = document.querySelector("#validation-input");
-console.log(textInput.getAttribute("data-length"));
 
 const getValidation = (event) => {
   if (event.target.value.length >= textInput.getAttribute("data-length")) {
